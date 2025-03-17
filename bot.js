@@ -2,8 +2,8 @@ const { Client, GatewayIntentBits, Partials } = require('discord.js');
 const { MessageContent, GuildMessages, Guilds, DirectMessages } = GatewayIntentBits;
 const mineflayer = require('mineflayer');
 
-const token = 'TOKEN';
-const logChannelId = 'LOG_CHANNEL';
+const token = '1351223382741487749';
+const logChannelId = '1351224592148201482';
 const client = new Client({ 
     intents: [Guilds, GuildMessages, MessageContent, DirectMessages],
     partials: [Partials.Channel] 
